@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-arrowsmith",
+  "version": "1.1.0",
+  "description": "Disallow arrow functions with block parentheses where they are not needed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "plugin",
+    "arrow",
+    "function",
+    "arrow function",
+    "body",
+    "parentheses",
+    "braces"
+  ],
+  "author": "Leon Heess",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonheess/eslint-plugin-arrowsmith.git"
+  },
+  "peerDependencies": {
+    "eslint": "<=8"
+  }
+}
