@@ -1,8 +1,9 @@
 'use strict'
+import noUselessArrowBlock from './rules/no-useless-arrow-block.js'
 
-module.exports = {
+export default {
   rules: {
-    'no-useless-arrow-block': require('./rules/no-useless-arrow-block'),
+    'no-useless-arrow-block': noUselessArrowBlock,
   },
   configs: {
     recommended: {

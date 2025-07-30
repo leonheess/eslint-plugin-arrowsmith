@@ -1,6 +1,7 @@
 {
   "name": "eslint-plugin-arrowsmith",
-  "version": "1.1.0",
+  "type": "module",
+  "version": "2.0.3",
   "description": "Disallow arrow functions with block parentheses where they are not needed.",
   "main": "index.js",
   "scripts": {
@@ -23,6 +24,6 @@
     "url": "https://github.com/leonheess/eslint-plugin-arrowsmith.git"
   },
   "peerDependencies": {
-    "eslint": "<=8"
+    "eslint": "<=9"
   }
 }
